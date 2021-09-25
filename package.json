@@ -74,6 +74,8 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
+    "prebuild": "node mark.js",
+    "postbuild": "node mark.js",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
