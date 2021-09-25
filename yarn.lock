@@ -1396,6 +1396,18 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@napi-rs/triples@^1.0.3":
+  version "1.0.3"
+  resolved "https://r.cnpmjs.org/@napi-rs/triples/download/@napi-rs/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
+  integrity sha1-dtbQw/TRYBPGHkXfyl/x5sMa5Tw=
+
+"@node-rs/helper@^1.0.0":
+  version "1.2.1"
+  resolved "https://r.cnpmjs.org/@node-rs/helper/download/@node-rs/helper-1.2.1.tgz#e079b05f21ff4329d82c4e1f71c0290e4ecdc70c"
+  integrity sha1-4HmwXyH/QynYLE4fccApDk7Nxww=
+  dependencies:
+    "@napi-rs/triples" "^1.0.3"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -1589,6 +1601,86 @@
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
+
+"@swc/core-android-arm64@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-android-arm64/download/@swc/core-android-arm64-1.2.91.tgz#5c8c039c1f3f59b2b79ea0b4287e381b79d10c62"
+  integrity sha1-XIwDnB8/WbK3nqC0KH44G3nRDGI=
+
+"@swc/core-darwin-arm64@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-darwin-arm64/download/@swc/core-darwin-arm64-1.2.91.tgz#235b54082a79c6729db68d2f87a367f9e8cc0b6a"
+  integrity sha1-I1tUCCp5xnKdto0vh6Nn+ejMC2o=
+
+"@swc/core-darwin-x64@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-darwin-x64/download/@swc/core-darwin-x64-1.2.91.tgz#c0976af3fcb6939eb409dd666393cc45a3959b37"
+  integrity sha1-wJdq8/y2k560Cd1mY5PMRaOVmzc=
+
+"@swc/core-freebsd-x64@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-freebsd-x64/download/@swc/core-freebsd-x64-1.2.91.tgz#9d2075ffb0583b6393f7570ffdf57ca0a8392f97"
+  integrity sha1-nSB1/7BYO2OT91cP/fV8oKg5L5c=
+
+"@swc/core-linux-arm-gnueabihf@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-linux-arm-gnueabihf/download/@swc/core-linux-arm-gnueabihf-1.2.91.tgz#f6f55ff047ad839d8e4ff48cc9e0bf52e6e207c7"
+  integrity sha1-9vVf8Eetg52OT/SMyeC/UubiB8c=
+
+"@swc/core-linux-arm64-gnu@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-linux-arm64-gnu/download/@swc/core-linux-arm64-gnu-1.2.91.tgz#fac898a3dbe8b3e2607ce71cd1466d0aabbbcb68"
+  integrity sha1-+siYo9vos+JgfOcc0UZtCqu7y2g=
+
+"@swc/core-linux-arm64-musl@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-linux-arm64-musl/download/@swc/core-linux-arm64-musl-1.2.91.tgz#c958bdd3cc97d0a0dbe10c0dcb81065a27ae6ee2"
+  integrity sha1-yVi908yX0KDb4QwNy4EGWieubuI=
+
+"@swc/core-linux-x64-gnu@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-linux-x64-gnu/download/@swc/core-linux-x64-gnu-1.2.91.tgz#0a95440867bc428b6f0e833378efe1248eb124d8"
+  integrity sha1-CpVECGe8QotvDoMzeO/hJI6xJNg=
+
+"@swc/core-linux-x64-musl@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-linux-x64-musl/download/@swc/core-linux-x64-musl-1.2.91.tgz#459caa014eda85f265d1bf52c34ae15cc6235cc7"
+  integrity sha1-RZyqAU7ahfJl0b9Sw0rhXMYjXMc=
+
+"@swc/core-win32-arm64-msvc@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-win32-arm64-msvc/download/@swc/core-win32-arm64-msvc-1.2.91.tgz#45050b998c6a351060fdbe9077f84a354e8c72a3"
+  integrity sha1-RQULmYxqNRBg/b6Qd/hKNU6McqM=
+
+"@swc/core-win32-ia32-msvc@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-win32-ia32-msvc/download/@swc/core-win32-ia32-msvc-1.2.91.tgz#6054df731b621eb4f018519e308a00bac3dd838a"
+  integrity sha1-YFTfcxtiHrTwGFGeMIoAusPdg4o=
+
+"@swc/core-win32-x64-msvc@1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core-win32-x64-msvc/download/@swc/core-win32-x64-msvc-1.2.91.tgz#d73c7283b422f7715059e6df8c085272173a32f7"
+  integrity sha1-1zxyg7Qi93FQWebfjAhSchc6Mvc=
+
+"@swc/core@^1.2.91":
+  version "1.2.91"
+  resolved "https://r.cnpmjs.org/@swc/core/download/@swc/core-1.2.91.tgz#8198b2cb3110b7a920b73c7e9557c2e964a4b969"
+  integrity sha1-gZiyyzEQt6kgtzx+lVfC6WSkuWk=
+  dependencies:
+    "@node-rs/helper" "^1.0.0"
+  optionalDependencies:
+    "@swc/core-android-arm64" "1.2.91"
+    "@swc/core-darwin-arm64" "1.2.91"
+    "@swc/core-darwin-x64" "1.2.91"
+    "@swc/core-freebsd-x64" "1.2.91"
+    "@swc/core-linux-arm-gnueabihf" "1.2.91"
+    "@swc/core-linux-arm64-gnu" "1.2.91"
+    "@swc/core-linux-arm64-musl" "1.2.91"
+    "@swc/core-linux-x64-gnu" "1.2.91"
+    "@swc/core-linux-x64-musl" "1.2.91"
+    "@swc/core-win32-arm64-msvc" "1.2.91"
+    "@swc/core-win32-ia32-msvc" "1.2.91"
+    "@swc/core-win32-x64-msvc" "1.2.91"
 
 "@testing-library/dom@^7.28.1":
   version "7.30.3"
@@ -10248,6 +10340,13 @@ svgo@^1.0.0, svgo@^1.2.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swc-loader@^0.1.15:
+  version "0.1.15"
+  resolved "https://r.cnpmjs.org/swc-loader/download/swc-loader-0.1.15.tgz#cb9c630ccfbb46dabc5aebc5560cced658e32992"
+  integrity sha1-y5xjDM+7Rtq8WuvFVgzO1ljjKZI=
+  dependencies:
+    loader-utils "^2.0.0"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
